@@ -55,3 +55,55 @@ h1 {
 .sub::after {
   right: -1.5%;
 }
+
+.info {
+  margin: 0 4rem;
+  font-size: 1.5rem;
+  border: 2px solid #e3c54f;
+  display: flex;
+  border-radius: 1rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.info > p {
+  padding: 0 1rem;
+  font-weight: bold;
+  display: flex;
+}
+
+p > img {
+  padding: 0 1rem;
+  width: 2rem;
+}
+
+h3 > img {
+  padding-right: 1rem;
+  transform: translateX(-1rem);
+  width: 2rem;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin: 0 4rem;
+}
+
+h3 + div {
+  border-left: 2px solid black;
+  padding: 0 2rem;
+}
+
+.title::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+  left: -37px;
+  background-color: black;
+}
