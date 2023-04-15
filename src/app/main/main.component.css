@@ -8,4 +8,50 @@ section {
   border-top: 1rem solid #e3c54f ;
   border-right: 1rem solid #e3c54f ;
   border-bottom: 1rem solid #e3c54f ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Grey Qo', cursive;
+  font-size: 8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.circle {
+  background-color: #e3c54f;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  transform: translateY(2rem);
+  position: absolute;
+  z-index: -1;
+}
+
+.sub {
+  transform: translateY(-1rem);
+  font-size: 1.5rem;
+  margin-top: 0;
+  display: table;
+  white-space: nowrap;
+}
+
+.sub::before, .sub::after {
+  border-top: 2px solid black;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 35%;
+}
+
+.sub::before {
+  right: 1.5%;
+}
+
+.sub::after {
+  right: -1.5%;
 }
