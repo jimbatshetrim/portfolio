@@ -4,13 +4,13 @@
 
 section {
   margin: 2rem 2rem 2rem 0;
-  height: 95vh;
   border-top: 1rem solid #e3c54f ;
   border-right: 1rem solid #e3c54f ;
   border-bottom: 1rem solid #e3c54f ;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 h1 {
@@ -44,16 +44,16 @@ h1 {
   content: '';
   display: table-cell;
   position: relative;
-  top: 0.5em;
+  top: 0.7em;
   width: 35%;
 }
 
 .sub::before {
-  right: 1.5%;
+  right: 2%;
 }
 
 .sub::after {
-  right: -1.5%;
+  right: -2%;
 }
 
 .info {
@@ -78,7 +78,6 @@ p > img {
 }
 
 h3 > img {
-  padding-right: 1rem;
   transform: translateX(-1rem);
   width: 2rem;
 }
@@ -97,13 +96,22 @@ h3 + div {
   padding: 0 2rem;
 }
 
-.title::before {
+.bullet::before {
   content: '';
-  display: inline-block;
+  display: block;
   width: 8px;
   height: 8px;
   border-radius: 50%;
   position: relative;
   left: -37px;
+  top: 20px;
   background-color: black;
+}
+
+.title {
+  font-weight:600;
+}
+
+p > span {
+  color: gray;
 }
