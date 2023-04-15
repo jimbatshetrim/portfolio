@@ -6,4 +6,17 @@ section {
   margin: 2rem 0 2rem 2rem;
   background-color: #2e2d2d;
   border: 1rem solid #2e2d2d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+#dp {
+  align-self: center;
+  width: 16rem;
+  height: 20rem;
+  object-fit:cover;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
