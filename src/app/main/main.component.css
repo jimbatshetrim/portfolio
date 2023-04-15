@@ -1,0 +1,11 @@
+:host {
+  flex: 2;
+}
+
+section {
+  margin: 2rem 2rem 2rem 0;
+  height: 95vh;
+  border-top: 1rem solid #e3c54f ;
+  border-right: 1rem solid #e3c54f ;
+  border-bottom: 1rem solid #e3c54f ;
+}
