@@ -54,5 +54,9 @@ export const FRAMEWORKS: LanguageType[] = [
   {
     name: 'Cypress',
     level: '9'
+  },
+  {
+    name: 'Firebase',
+    level: '7'
   }
 ]
