@@ -1,12 +1,11 @@
-main {
+.portfolio {
   display: flex;
   margin: 2rem 6rem;
-  font-family: 'Hind', sans-serif;
   height: 100%;
 }
 
 @media only screen and (max-width: 1060px) {
-  main {
+  .portfolio {
     margin: 1rem;
   }
 }
