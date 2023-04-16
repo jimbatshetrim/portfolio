@@ -10,7 +10,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.5rem;
 }
 
 h1 {
@@ -33,7 +32,6 @@ h1 {
 
 .sub {
   transform: translateY(-1rem);
-  font-size: 1.5rem;
   margin-top: 0;
   display: table;
   white-space: nowrap;
@@ -58,7 +56,6 @@ h1 {
 
 .info {
   margin: 0 4rem;
-  font-size: 1.5rem;
   border: 2px solid #e3c54f;
   display: flex;
   border-radius: 1rem;

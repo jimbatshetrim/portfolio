@@ -20,3 +20,26 @@ section {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+
+.skill {
+  margin: 0 0;
+}
+
+#grey {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.content > p {
+  margin: 0;
+}
+
+input {
+  height: 2px;
+  width: 100%;
+}
+
+.content {
+  padding-left: 1rem;
+  border-left: 2px solid #e3c54f;
+}

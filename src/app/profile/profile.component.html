@@ -2,14 +2,25 @@
   <img src="assets/dp.jpeg" id="dp"/>
   <div>
     <h3>Education</h3>
-    <p>2015 - 2018</p>
-    <p>Bachelor in Computer Science</p>
-    <p>University of Western Sydney</p>
+    <div class="content">
+      <p id="grey">2015 - 2018</p>
+      <p>Bachelor in Computer Science</p>
+      <p id="grey">University of Western Sydney</p>
+    </div>
   </div>
   <div>
     <h3>Skills</h3>
-    <p *ngFor="let el of ['JavaScript', 'TypeScript', 'HTML5']">{{el}}
-    <input type="range" [value]="9" [max]="10" [min]="0"/>
-    </p>
+    <div class="content" *ngFor="let el of skills">
+      <p class="skill">{{el.name}}</p>
+      <input disabled type="range" [value]="el.level" [max]="10" [min]="0"/>
+    </div>
+  </div>
+
+  <div>
+    <h3>Frameworks</h3>
+    <div class="content" *ngFor="let el of frameworks">
+      <p class="skill">{{el.name}}</p>
+      <input disabled type="range" [value]="el.level" [max]="10" [min]="0"/>
+    </div>
   </div>
 </section>
