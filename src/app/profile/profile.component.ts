@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FRAMEWORKS, LANGUAGES, LanguageType } from '../misc/app.constant';
+import { Certificate, CERTIFICATES, FRAMEWORKS, LANGUAGES, LanguageType, SPECIALIZATION } from '../misc/app.constant';
 
 @Component({
   selector: 'app-profile',
@@ -12,5 +12,7 @@ import { FRAMEWORKS, LANGUAGES, LanguageType } from '../misc/app.constant';
 export class ProfileComponent {
   skills: LanguageType[] = LANGUAGES;
   frameworks: LanguageType[] = FRAMEWORKS;
+  certificates: Certificate[] = CERTIFICATES;
+  specialist: Certificate[] = SPECIALIZATION;
 
 }

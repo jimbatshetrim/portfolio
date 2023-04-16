@@ -43,3 +43,21 @@ input {
   padding-left: 1rem;
   border-left: 2px solid #e3c54f;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.bullet::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+  left: -21px;
+  top: 24px;
+  background-color: #e3c54f;
+}
