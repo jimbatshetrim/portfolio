@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-
+  experience: number = new Date().getFullYear() - new Date('06.04.2020').getFullYear();
 }
