@@ -90,7 +90,7 @@ h3 {
 
 h3 + div {
   border-left: 2px solid black;
-  padding: 0 2rem;
+  padding: 0 0 0 2rem;
 }
 
 .bullet::before {
