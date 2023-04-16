@@ -2,4 +2,5 @@ main {
   display: flex;
   margin: 2rem 6rem;
   font-family: 'Hind', sans-serif;
+  height: 100%;
 }

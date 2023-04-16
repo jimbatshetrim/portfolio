@@ -8,8 +8,8 @@ section {
   border: 1rem solid #2e2d2d;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   color: white;
+  height: 100%;
 }
 
 #dp {
