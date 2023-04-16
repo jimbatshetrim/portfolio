@@ -4,3 +4,9 @@ main {
   font-family: 'Hind', sans-serif;
   height: 100%;
 }
+
+@media only screen and (max-width: 1060px) {
+  main {
+    margin: 1rem;
+  }
+}
