@@ -2,9 +2,10 @@
   "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
+    "init:app": "node ./scripts/env_setup.js && yarn install",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "yarn init:app && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
