@@ -75,6 +75,11 @@ p > img {
   width: 2rem;
 }
 
+p > a {
+  text-decoration: none;
+  color: black;
+}
+
 h3 > img {
   transform: translateX(-1rem);
   width: 2rem;

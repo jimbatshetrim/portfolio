@@ -33,7 +33,7 @@ export const LANGUAGES: LanguageType[] = [
     level: '5'
   },
   {
-    name: 'Observable',
+    name: 'Rxjs',
     level: '8'
   },
   {
