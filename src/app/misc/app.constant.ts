@@ -144,4 +144,10 @@ export const CERTIFICATES: Certificate[] = [
     issueDate: 'January 2023',
     url: 'https://www.coursera.org/account/accomplishments/certificate/HZQ4NMB23V4C'
   },
+  {
+    name: 'Angular (Basic)',
+    issuingOrganization: 'HackerRank',
+    issueDate: 'April 2023',
+    url: 'https://www.hackerrank.com/certificates/iframe/f20a69708d34'
+  },
 ]
