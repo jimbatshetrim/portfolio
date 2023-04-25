@@ -4,9 +4,9 @@
 
 section {
   margin: 2rem 2rem 2rem 0;
-  border-top: 1rem solid #e3c54f ;
-  border-right: 1rem solid #e3c54f ;
-  border-bottom: 1rem solid #e3c54f ;
+  border-top: 1rem solid var(--primary);
+  border-right: 1rem solid var(--primary);
+  border-bottom: 1rem solid var(--primary);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ h1 {
 }
 
 .circle {
-  background-color: #e3c54f;
+  background-color: var(--primary);
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
@@ -57,7 +57,7 @@ h1 {
 
 .info {
   margin: 0 4rem;
-  border: 2px solid #e3c54f;
+  border: 2px solid var(--primary);
   display: flex;
   border-radius: 1rem;
   justify-content: space-evenly;
