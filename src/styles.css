@@ -5,3 +5,8 @@ body {
   font-size: 1.5rem;
   font-family: 'Hind', sans-serif;
 }
+
+:root {
+  --primary: #e3c54f;
+  --secondary: #2e2d2d;
+}

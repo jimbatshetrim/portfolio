@@ -151,3 +151,5 @@ export const CERTIFICATES: Certificate[] = [
     url: 'https://www.hackerrank.com/certificates/iframe/f20a69708d34'
   },
 ]
+
+export const COLOR_OPTIONS: string[] = ['#e3c54f', '#49cc6c', '#e3654f', '#e3a84f', '#4660c7', '#4f6de3', '#8d4fe3', '#e34fd7', '#e34f4f']
